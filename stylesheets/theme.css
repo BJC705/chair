@@ -1,0 +1,563 @@
+@charset "UTF-8";
+
+/* line 5, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/* line 22, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+html {
+    line-height: 1;
+}
+
+
+/* line 24, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+
+/* line 26, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* line 28, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+/* line 30, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+q,
+blockquote {
+    quotes: none;
+}
+
+
+/* line 103, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+
+/* line 32, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+a img {
+    border: none;
+}
+
+
+/* line 116, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url("../font/fontello.eot?16218589");
+    src: url("../font/fontello.eot?16218589#iefix") format("embedded-opentype"), url("../font/fontello.woff?16218589") format("woff"), url("../font/fontello.ttf?16218589") format("truetype"), url("../font/fontello.svg?16218589#fontello") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: libre-franklin;
+    margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: brandon-grotesque;
+    color: #929292;
+}
+
+
+/* ##My css code## */
+
+.container {
+    width: 100%;
+    margin: 0auto;
+    border-right: 1px solid #6A813F;
+}
+
+.container-gallery {
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    margin-bottom: 5em;
+    max-width: 95%;
+}
+
+ul li {
+    text-decoration: none;
+    font-size: .65rem;
+    list-style: none;
+}
+
+.featured {
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.collection-nav {
+    display: flex;
+    /* margin-left: 105px; */
+    color: #6A813F;
+}
+
+.main-ul {
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.main-ul:hover {
+    color: #929292;
+}
+
+.main-title {
+    font-size: 1.75em;
+    padding: 1em 0em;
+    float: left;
+    max-width: 450px;
+    font-weight: bold;
+}
+
+.accent-chair {
+    max-width: 400px;
+    display: flex;
+}
+
+.accent-chair-body {
+    color: #929292;
+    max-width: 500px;
+    line-height: 2;
+    font-size: .68rem;
+    padding-right: 100px;
+}
+
+.collection-info {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.top-list {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+li.optional {
+    display: inline;
+    margin-right: 85px;
+    color: #929292;
+}
+
+li.optional-2 {
+    display: inline;
+    margin-right: 75px;
+    color: #929292;
+}
+
+li.optional:hover {
+    color: #6A813F;
+}
+
+.bottom-list {
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.level-logo {
+    max-width: 6em;
+}
+
+.download-nav ul {
+    display: flex;
+    justify-content: center;
+    color: #929292;
+    padding: 10px;
+    border-top: 1px solid #929292;
+    border-left: 1px solid #929292;
+    border-right: 1px solid #929292;
+    letter-spacing: 1.25px;
+    /* position: fixed; */
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    /* z-index: 1; */
+}
+
+.download-nav li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.list-item li {
+    padding-left: 2em;
+}
+
+li:hover {
+    color: #6A813F;
+}
+
+.logo {
+    max-width: 25em;
+    margin: .25em 1em;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.gallery-h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #434851;
+    font-weight: bold;
+    text-decoration: underline #6A813F;
+    font-size: 1.25rem;
+}
+
+
+/* icons */
+
+.arrow-icon {
+    max-width: .50em;
+    margin: 0 auto;
+}
+
+.lnr {
+    padding: 1em;
+}
+
+.lnr-bubbles:hover,
+.lnr-map-marker:hover,
+.lnr-magnifier:hover,
+.lnr-expand2:hover {
+    color: green;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container-1 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.icon-container-2 {
+    position: relative;
+    margin-top: 0px;
+}
+
+.icon-container-2:hover {
+    color: #6A813F;
+}
+
+.overlay {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+}
+
+.row-2 {
+    display: flex;
+}
+
+
+/* gallery */
+
+.img-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.image1 {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    transition: ease-in-out .4s;
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover,
+.image6:hover,
+.image7:hover,
+.image8:hover {
+    transform: scale(1.15);
+}
+
+.image2 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image3 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image4 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image5 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image6 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image7 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+.image8 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transition: ease-in-out .4s;
+}
+
+@media (max-width: 800px) {
+    .featured {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .download-nav ul {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    .download-nav ul {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 948px) and (max-width: 1200px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8 {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 833px) and (max-width: 947px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8 {
+        height: 175px;
+        width: 175px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 832px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8 {
+        height: 125px;
+        width: 125px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8 {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 480px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8 {
+        height: 75px;
+        width: 75px;
+    }
+}
